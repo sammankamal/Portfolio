@@ -19,19 +19,29 @@ main{
     font-weight: 400;
     background-color: white;
     min-height: 1000px;
-    margin-top: 0px;
+    margin-top: -30px;
 
 }
 .mainportfolio{
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 400;
     background-color: white;
-    min-height: 3000px;
+    min-height: 3500px;
     margin-top: 0px;
 }
 .mainportfolio h2{
 margin-bottom: 20px;
 margin-left: 27px;
+}
+.ommigtekst{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    padding-left: 27px;
+    padding-right: 27px;
+    text-align: justify;
+    line-height: 1.5;
 }
 .kontaktmain{
     font-family: 'Nanum Gothic', sans-serif;
@@ -321,7 +331,7 @@ input[type=text], select, textarea{
     box-sizing: border-box;
     
 }
-input[type=E-mail], select, textarea{
+input[type=email], select, textarea{
     width: 500px;
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 400;
@@ -357,7 +367,18 @@ i{
     float: right;
     display: flex;  
 }
-
-
+.logo img{
+    width: 300px;
+}
+.sammanimg img{
+    width: 400px;
+}
+.greenimg{
+    width: 500px;
+    
+    margin-left: 250px;
+    margin-right: auto;
+    margin-top: 50px;
+}
 
 
