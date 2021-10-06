@@ -1,0 +1,363 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: #BCD3C7;
+    /*background-image: linear-gradient(90deg, rgb(204, 47, 243),purple);*/
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    background-color: white;
+    min-height: 1000px;
+    margin-top: 0px;
+
+}
+.mainportfolio{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    background-color: white;
+    min-height: 3000px;
+    margin-top: 0px;
+}
+.mainportfolio h2{
+margin-bottom: 20px;
+margin-left: 27px;
+}
+.kontaktmain{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    background-color: white;
+    min-height: 700px;
+    margin-top: 0px;
+}
+header{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.logo{
+    justify-content: center;
+    
+}
+
+h1{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    letter-spacing: 10px;
+    padding: 12px;
+    color: white;
+    font-size: 60px;
+}
+.box1{
+    background-color: rgba(51, 51, 51, 0.513);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    letter-spacing: 3.5px;
+    color: black;
+    font-size: 50px;
+    padding-top: 30px;
+    
+}
+
+.h2-index{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 4.2px;
+}
+
+h3{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    letter-spacing: 3.5px;
+    color: black;
+    
+    padding: 10px;
+}
+
+
+.navknap{
+    text-decoration: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    color: black;
+    align-items: center;
+    font-size: 17px;
+    padding: 30px 30px;
+    letter-spacing: 5px;
+}
+/*
+.headerbox{
+    width: 1024px;
+    position: fixed;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0.438);
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}*/
+a{
+    padding-top: 20px;
+    align-items: center;
+    transition: 0.2s;
+}
+a:hover{
+font-size: large;
+font-weight: 700;
+}
+h3{
+    font-size: 27px;
+    margin: 20px;
+    
+}
+
+.pmain{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 30px;
+    padding: 12px;
+    padding-top: 30px;
+    text-align: center;
+}
+.p-ommig{
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 30px;
+}
+/*.p-ommig, h1{
+    color: black;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+}*/
+.port-tekst{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    padding-left: 27px;
+    padding-right: 27px;
+    text-align: justify;
+    line-height: 150%;
+    
+}
+   
+footer{
+    background-color: #A7BAB0;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer p{
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 110px;
+    
+    
+}
+.socialicon{
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s;
+    justify-content: end;
+}
+.socialicon:hover{
+    color: rgba(51, 51, 51, 0.513);
+}
+.socialicon1{
+    display: flex;
+    justify-content: end;
+}
+.container{
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.cards{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+}
+.cards2{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 27px;
+
+}
+.cards3{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 27px;
+
+}
+
+
+.card1{
+    background-image: url(../images/img4.png);
+    height: 600px;
+    background-size: cover;
+    width: 47%;
+    
+}
+.card2{
+    background-image: url(../images/Nyhavn-Julian.jpg);
+    height: 600px;
+    background-size: cover;
+    width: 47%;
+}
+
+.card4{
+    background-image: url(../images/img5.png);
+    background-size: cover;
+    height: 350px;
+    width: 65%;
+}        
+
+.card5{
+    background-image: url(../images/Spejl.png);
+    background-size: cover;
+    height: 350px;
+    width: 65%;
+    margin-top: 27px;
+}
+.card6{
+    background-image: url(../images/xd-1.png);
+    background-size: cover;
+    height: 450px;
+    width: 30%;
+    margin-top: 27px;
+}
+.card7{
+    background-image: url(../images/xd-2.jpg);
+    background-size: cover;
+    height: 450px;
+    width: 30%;
+    margin-top: 27px;
+}
+.card8{
+    background-image: url(../images/xd-3.jpg);
+    background-size: cover;
+    height: 450px;
+    width: 30%;
+    margin-top: 27px;
+}
+.card9{
+    background-image: url(../images/xd-4.jpg);
+    background-size: cover;
+    height: 450px;
+    width: 30%;
+    margin-top: 27px;
+}
+.card10{
+    background-image: url(../images/xd-4.jpg);
+    background-size: cover;
+    height: 450px;
+    width: 30%;
+    margin-top: 27px;
+}
+
+    
+.kontaktcontainer p{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    color: black;
+    margin: 12px;
+    letter-spacing: 1.2px;
+    font-size: 20px;
+}
+.kontaktcontainer{
+    padding: 14px;
+    border-width: 3px;
+    /*background-color: cadetblue;*/
+    margin-top: 30px;
+    margin-left: auto; /*30px original*/
+    margin-right: auto;
+    width: 500px;
+
+}
+input[type=text], select, textarea{
+    width: 500px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    padding: 12px;
+    border: solid rgba(51, 51, 51, 0.513);
+    box-sizing: border-box;
+    
+}
+input[type=E-mail], select, textarea{
+    width: 500px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    padding: 12px;
+    border: solid rgba(51, 51, 51, 0.513);
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 100px;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.438);
+    border: solid rgba(51, 51, 51, 0.513);
+    box-sizing: border-box;
+    float: right;
+    margin-top: 12px;
+    transition: 0.2s;
+}
+input[type=submit]:hover {
+    color: white;
+    background-color: #81D0D0;
+    letter-spacing: 5px;
+}
+i{
+    font-size: 30px;
+    padding-top: 10px;
+    padding: 8px;
+    text-align: center;
+}
+
+.sammanimg{
+    float: right;
+    display: flex;  
+}
+
+
+
+
